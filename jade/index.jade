@@ -1,0 +1,67 @@
+doctype html
+html(lang="en")
+  head
+    title= 'CFR Code Test'
+    link(href='css/reset.css', rel='stylesheet', type='text/css')
+    link(href='css/style.css', rel='stylesheet', type='text/css')
+    link(href='https://fonts.googleapis.com/css?family=Questrial', rel='stylesheet', type='text/css')
+  body
+    header
+      img(src="img/logo.png", alt="Council on Foreign Relations")
+      div.search-box
+        input(type="text", placeholder="Search this site")
+        input(type="image", src="img/search.svg", alt="Search")
+      nav
+        a(id="nav-toggle", href="#")&#9776;
+        ul
+          li.drop-down 
+            a(href="#") About the Talks
+            ul
+              li 
+                a(href="#") Drop Down
+              li 
+                a(href="#") Drop Down
+          li 
+            a(href="#") FAQ
+          li 
+            a(href="#") Get Involved
+          li
+            a(href="#") Connect
+          li
+            a(href="#") Contact
+    div.hero
+      h1 Paris Climate Talks
+      #countdown
+        p Talks begin: <span></span>
+    .container
+      article
+        h2 What do the talks mean to you?
+        p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum magna lectus, tempus a dolor eu, congue porttitor velit. Nulla rhoncus rhoncus nulla at convallis. Integer magna ipsum, mollis ac ex in, venenatis semper arcu. Donec tempus orci id mauris vulputate suscipit. Donec arcu purus, volutpat nec sem vitae, mattis gravida leo. Praesent eu nisl faucibus, congue augue eu, euismod mi. Maecenas ac auctor orci. Suspendisse potenti. Morbi bibendum vel arcu et dictum. Quisque pulvinar nulla in leo consequat, in elementum dui facilisis. Curabitur consectetur urna enim, in ornare elit euismod vel. Morbi a lacus imperdiet, semper augue tincidunt, imperdiet massa. Proin lobortis, tortor quis tincidunt sodales, nibh risus sodales mauris, in pellentesque urna dolor nec lorem.
+        h3 Why it Matters
+        p Nunc posuere, enim vitae convallis mollis, augue diam tincidunt dui, et lacinia tellus nisi id odio. Phasellus ac posuere tellus. Cras blandit neque in ligula dignissim ultricies. Aliquam vestibulum velit in congue luctus. Phasellus ut mauris ut lacus vehicula condimentum vitae eget diam. Donec ac vehicula erat. Donec non lorem non lectus gravida blandit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed tempus porta dapibus. Aenean in purus at mi ultricies tristique. Suspendisse tincidunt cursus magna in elementum.
+
+        p Aliquam fringilla efficitur dolor, ut pulvinar sem egestas id. Fusce semper tincidunt massa nec aliquam. Suspendisse pulvinar quis magna posuere lobortis. Phasellus sed nunc varius, viverra libero vel, fringilla urna. Nulla risus ligula, semper sed nibh quis, faucibus congue est. Aenean in ligula auctor dui finibus commodo id ut risus. Praesent bibendum metus a urna consequat, sit amet viverra ex vestibulum. Curabitur in est viverra, egestas ligula sit amet, maximus justo. In vulputate lorem quis viverra hendrerit. Vestibulum pulvinar ipsum ut libero fermentum efficitur. Donec porttitor, nisi sit amet laoreet luctus, elit ipsum convallis urna, eu ultricies mi felis quis eros.
+      aside
+        h4 Key facts
+        ul
+          li Lorem ipsum dolor sit amet, 
+          li consectetur adipiscing elit. 
+          li Vestibulum magna lectus, tempus 
+          li a dolor eu, congue porttitor velit. 
+          li Nulla rhoncus rhoncus nulla at
+          li convallis. Integer magna ipsum,
+          li mollis ac ex in, venenatis semper arcu.
+        hr
+        h4 In the Spotlight
+        ul
+          li Lorem ipsum dolor sit amet, 
+          li consectetur adipiscing elit. 
+          li Vestibulum magna lectus, tempus 
+          li a dolor eu, congue porttitor velit. 
+          li Nulla rhoncus rhoncus nulla at
+          li convallis. Integer magna ipsum,
+          li mollis ac ex in, venenatis semper arcu.
+    footer
+      p &copy; 2016
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js')
+    script(src='js/js.js')
